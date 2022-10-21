@@ -20,7 +20,7 @@
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 14px;
+  /* font-size: 14px; */
   background: var(--neutral-color-1);
 }
 
@@ -29,8 +29,9 @@ h2 {
 }
 
 .container {
-  max-width: 375px;
-  margin: 4rem auto;
+  min-width: 375px;
+  max-width: 768px;
+  margin: auto;
   background: var(--white-color);
 }
 
@@ -38,7 +39,7 @@ h2 {
   padding: 1rem;
 }
 
-/* Notificastion Heading */
+/* Notification Heading */
 
 .notification-wrapper .header {
   display: flex;
@@ -70,15 +71,10 @@ h2 {
 
 .notification-wrapper .card {
   display: flex;
-  /* justify-content: space-between; */
   padding: 1rem;
   margin-bottom: 0.8rem;
   border-radius: 10px;
   background: var(--white-color);
-}
-
-.notification-wrapper .card .content {
-  display: flex;
 }
 
 .notification-wrapper .card.unread {
@@ -139,17 +135,11 @@ p {
   border-radius: 5px;
 }
 
-/* .notification-wrapper .card .p.unread-content {
-  position: absolute;
-} */
-
 .notification-wrapper .card i.unread-dot {
-  /* position: relative;
-  bottom: 0;
-  left: 0; */
   padding-left: 2px;
   color: var(--red-color);
   font-size: 8px;
+  vertical-align: middle;
 }
 
 /* from Front End Mentor */
