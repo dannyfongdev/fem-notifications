@@ -23,7 +23,7 @@ body {
   background: var(--neutral-color-1);
 }
 
-h2 {
+h1 {
   color: var(--neutral-color-6);
 }
 
@@ -52,7 +52,7 @@ h2 {
   padding: 0.5rem 0 1.5rem 0;
 }
 
-.notification-wrapper .header h2 {
+.notification-wrapper .header h1 {
   display: inline;
   margin-right: 5px;
 }
